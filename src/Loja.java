@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Loja {
 	private ArrayList<Produto> prod;
-	private int cont = 0;
+	//private int cont = 0;
 	
 	public Loja(int tam) {
 		ArrayList<Produto> prod = new ArrayList(tam);
@@ -14,7 +14,7 @@ public class Loja {
 				break;
 			}else {
 				prod.add(p);
-				cont++;
+				//cont++;
 			}
 		}
 	}
